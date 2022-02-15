@@ -1,0 +1,419 @@
+*{
+   margin:0 auto;
+   padding: 0;
+   box-sizing: border-box;
+}
+.nav-1 ul {
+	margin:0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+}
+
+.head-1{
+	background-color: #003A6A;
+	height: 35%;
+	width: 100%;
+}
+
+.all{
+	height:60%;
+	width: 70%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: "content-h icon plan"
+	margin-left:15%;
+	margin-right:15%;
+	
+}
+
+.navi{
+	height:45%;
+	width: 80%;
+	margin:0;
+}
+
+.uni{
+	letter-spacing: 10px;
+}
+.uni, .abc{
+	font-family: 'Cairo', sans-serif;
+}
+
+.abc{
+		letter-spacing: 1px;
+}
+
+.white{
+	color:white;
+}
+
+.ecole{
+	color: #8ab5d6;
+	font-family: 'Cairo', sans-serif;
+	letter-spacing: -0.6px;
+}
+
+.ecole-2{
+	
+   letter-spacing: 0.6px;
+}
+
+
+.ensah-im{
+	width: 70px;
+	height: 60px;
+	filter:  brightness(0) invert(1);
+}
+
+.content-h{
+    grid-area:content-h;
+
+}
+
+.icon{
+	grid-area:icon;
+
+}
+.plan{
+	grid-area:plan;
+}
+
+.navi{
+    grid-area: navi;
+}
+.acc{
+   float: left;
+}
+
+.logo{
+	float: right;
+}
+
+
+ul li img{
+	width: 20px;
+	height: 20px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+.acc ul li a{
+      color: #8ab5d6;
+}
+.acc ul li{
+	border-right:0.2px solid #8ab5d6;
+	padding: 10px;
+}
+
+
+.nav-1{
+	border-top:0.2px solid #8ab5d6;
+}
+
+
+
+
+/*giving a dimensions to the icons*/
+ul li img{
+	width:50px;
+	height: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.n a:hover .content2 ul{
+   	   display: block;
+   }
+
+   .n a:hover .content1 ul li{
+   	   border-bottom: 1px solid gray;
+   	   padding: 5px;
+   }
+
+    .content2 ul{
+    	display: none;
+    }
+
+
+
+
+<div class="responsive-contai">
+
+<div class="slides2">
+  		<img src="slide-1.png">
+ </div>
+
+
+ <div class="login2">
+  		<p>PLATEFORME E-SERVICES ENSAH</p>
+  		<div class="eservice-im">
+  		<img src="eservice.png">
+  		</div>
+
+  		<div>
+  			<form>
+  				<label>
+  					Nom d'utilisateur:<br><br>
+  				</label>
+  				<input type="text" class="in">
+
+  			     <label>
+  			     	Mot de passe:<br><br>
+  			     </label>
+  			     <input type="password" class="in">
+  			</form>
+  		</div>
+  
+    <div class="atag">
+    	<p ><a href="#">Questions ? </a> | <a href="#"> Mot de passe oublié</a></p>
+    	<button>Se Connecter</button>
+    </div>
+  </div>
+
+
+  <div class="actu2">
+
+   	<h3>ACTUALITéS GRAND PUBLIC</h3>
+   	<hr>
+
+   	<div class="bor-dash">
+   	  <div >
+   	  	<div class="actu-imgs"><a href="#"><img src="5.png" class="imga"></a></div>
+
+      	<div class="pub2">
+      		<h4><a href="#">Avis aux Etudiants du Cycle Ingénieur : Enseignement Présentiel</a></h4>
+      		<p>
+      			publié le 13/04/2021 à 17:23
+      		</p>
+      	</div>
+   	    </div>
+    </div>
+
+    <div class="bor-dash">
+   	   <div>
+   	  	<div class="actu-imgs"><a href="#"><img src="6.png" class="imga"></a></div>
+      	<div class="pub2">
+      		<h4><a href="#">عبارات تهنئة بمناسبة شهر رمضان المبارك</a></h4>
+      		<p>
+      			publié le 13/04/2021 à 17:04
+      		</p>
+      	</div>
+   	  </div>
+   	</div>
+
+     <div class="bor-dash">
+   	  	<div class="actu-imgs"><a href="#"><img src="7.png" class="imga"></a></div>
+      	<div class="pub2">
+      		<h4><a href="#">Avis : décision du conseil d'établissement concernant le modèle pédagogique de la session du printemps</a></h4>
+      		<p>
+      			publié le 01/04/2021 à 14:04
+      		</p>
+      	</div>
+   	  </div>
+
+      <div class="bor-dash">
+   	  <div>
+   	  	<div class="actu-imgs"><a href="#"><img src="8.png" class="imga"></a></div>
+      	<div class="pub2">
+      		<h4><a href="#">Appel à Candidature pour Enseignants Vacataires à l'ENSAH</a></h4>
+      		<p>
+      			publié le 25/03/2021 à 11:53
+      		</p>
+      	</div>
+   	  </div>
+   	</div>
+
+   	  <div class="to-right">
+      		<a href="#">Voir plus d'actualités..»</a>
+      	</div>
+      </div>
+
+
+      <div class="art2" >
+  	<h2>ENSA d'Al-Hoceima</h2>
+  <article>
+  	  <strong>l'Ecole Nationale des Sciences Appliquées d'Al-Hoceima (ENSAH)</strong> est un établissement public d'enseignement supérieur relevant de l'université Abdelmalek Essaadi. Sa création s'inscrit dans l'optique de favoriser la formation des ingénieurs d'Etat hautement qualifiés dans les spécialités les plus ouvertes et susceptibles de connaître d'importants développements au sein du tissu socio-économique régional et national. Le positionnement de l'Ecole contribuera à lui conférer une dimension euro-méditerranéenne et à répondre aux besoins régionaux et nationaux en matière de formation en ingénierie. L'Ecole Nationale des Sciences Appliquées Al-Hoceima dispense des formations de deux années préparatoires et trois années de spécialités dans les domaines suivants : <a href="#" class="a2tag">Lire la suite</a> »
+  </article>
+  </div>
+
+
+  <div class="esp-int2">
+  	<h3>ESPACE INTERNE</h3>
+  	<hr>
+      <div class="bor-dash">
+      	<div class="images"><a href="#"><img src="affichage.png" class="imgaf"></a></div>
+      	<div class="pub">
+      		<h4><a href="#">votre tableau d'affichage en ligne</a></h4>
+      		<p>
+      			Dernière publication le 16/04/2021 à 20:15
+      		</p>
+      	</div>
+      </div>
+     
+      <div>
+      	<div class="images"><a href="#"><img src="emploi.png"  class="imgaf"></a></div>
+      	<div class="pub">
+      		<h4><a href="#">vos emplois de temps</a></h4>
+      		<p>
+      			Dernière modification le 23/04/2021 à 11:30
+      		</p>
+      	</div>
+      </div>
+  </div>
+
+
+
+<div class="even2">
+  	<h3>évenements</h3>
+  	<hr>
+
+  	<div class="bor-dash bor-dash2">
+  		<div class="sp">
+  			<span class="mars">
+  				Mars
+  			</span>
+  			<span class="date date1">
+  				26
+  			</span>
+  		</div>
+  		<div class="parat">
+  			<h4><a href="#">BOUK AT TANMIA</a></h4>
+  			<p> le 26 Mars 2020</p>
+  		</div>
+  	</div>
+  
+
+    <div>
+  		<div class="sp">
+  			<span class="mars">
+  				Mars
+  			</span>
+  			<span class="date date2">
+  				28
+  			</span>
+  		</div>
+  		<div class="parat">
+  			<h4><a href="#">Journée scientifique LSA</a></h4>
+  			<p> le 28 Mars 2020</p>
+  		</div>
+  	</div>
+
+
+<div class="racc2">
+   	<h3>RACCOURCIS</h3>
+   	<hr>
+   	<div class="racc-img">
+   		<a href="#"><img src="1.png"></a>
+   	</div>
+
+   	<div class="racc-img">
+   		<a href="#"><img src="2.png"></a>
+   	</div>
+
+   	<div class="racc-img">
+   		<a href="#"><img src="3.png"></a>
+   	</div>
+
+   	<div class="racc-img">
+   		<a href="#"><img src="4.png"></a>
+   	</div>
+   </div>
+
+
+ <div class="galery2">
+      	<h3>GALERIES</h3>
+      	<hr>
+      	   <div class="imgs">
+      	   	   <a href="#">
+      	   	   	<img src="slide-1.png">
+      	   	   </a>
+      	   </div>
+           
+           <div class="imgs">
+      	   	   <a href="#">
+      	   	   	<img src="slide-2.png">
+      	   	   </a>
+      	   </div>
+
+      	   <div class="imgs">
+      	   	   <a href="#">
+      	   	   	<img src="slide-3.png">
+      	   	   </a>
+      	   </div>
+
+      	   <div class="imgs">
+      	   	   <a href="#">
+      	   	   	<img src="slide-4.png">
+      	   	   </a>
+      	   </div>
+
+      	   <div class="imgs">
+      	   	   <a href="#">
+      	   	   	<img src="slide-5.png">
+      	   	   </a>
+      	   </div>
+
+      	   <div class="imgs">
+      	   	   <a href="#">
+      	   	   	<img src="slide-6.png">
+      	   	   </a>
+      	   </div>
+
+      	   <div class="imgs">
+      	   	   <a href="#">
+      	   	   	<img src="slide-7.jpg">
+      	   	   </a>
+      	   </div>
+
+      	   <div class="imgs">
+      	   	   <a href="#">
+      	   	   	<img src="slide-8.jpg">
+      	   	   </a>
+      	   </div>
+
+      </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
